@@ -3,9 +3,6 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-//Complete the following function.
-
-
 void calculate_the_maximum(int n, int k) {
     int a,b,ad=0,or=0,xr=0;
     int maxd=0,maxr=0,maxn=0;
@@ -26,8 +23,6 @@ void calculate_the_maximum(int n, int k) {
     }
 
   printf("%d\n%d\n%d",maxd,maxr,maxn);
- 
-  //Write your code here.
 }
 
 int main() {
